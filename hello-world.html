@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-		<link rel="stylesheet" href="application.css">
+		<link rel="stylesheet" href="css/application.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -15,50 +15,61 @@
 	
 	<body>
 		<div class="container">
-			<div class="row">
-				<div class="col-md-10 offset-md-2 text-right image-div">
-					<h1>Demesvar Destin</h1>
-					<h5>Software Engineer</h5>
-					<hr style="height: 3px !important; background: #7d97ad !important; border: 1px solid #7d97ad !important; margin-top: 20px; margin-bottom: 20px;">
-					<img class="image" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12417835_112697072442656_2690144847080832302_n.jpg?oh=3705f131b0c9a5faf13bb443a39a5bb8&oe=5AA73A0C" alt="banner">
+			<header>
+				<div class="row">
+					<div class="col-md-10 offset-md-2 image-div">
+						<div class="row">
+							<div class="col-md-3">
+								<img class="logo" src="img/logo.jpg" alt="logo">
+							</div>
+							<div class="col-md-9 text-right">
+								<h1>Demesvar Destin</h1>
+								<p>Software Engineer</p>
+							</div>
+						</div>
+						<hr class="hr">
+						<img class="image" src="img/banner.jpg" alt="banner">
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-10 offset-md-2 links-div">
-					<div class="row">
-						<div class="col-md-12">
-							<h4 class="featured"><strong>Featured Work</strong></h4>
-						</div>
-						<div class="col-md-4">
-							<div class="card">
-								<div class="card-body">
-									<img class="featured-1" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/12410575_1024978600902790_8014180828968833796_n.jpg?oh=d95e6225ef26233e3a6e86d46224e2b9&oe=5AAD609E" alt="spub-media">
-								</div>
+			</header>
+			<section class="featured-works">
+				<div class="row">
+					<div class="col-md-10 offset-md-2 links-div">
+						<div class="row">
+							<div class="col-md-12">
+								<h4 class="featured"><strong>Featured Work</strong></h4>
 							</div>
-							<h3 class="feature-title text-center"><strong>Spub Media</strong></h3>
-							<h6 class="feature-site text-center"><a href="http://www.spubmedia.com">www.spubmedia.com</a></h6>
-						</div>
-						<div class="col-md-4">
-							<div class="card">
-								<div class="card-body">
-									<img class="featured-1" src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/21232084_1329489760511305_4708460439814212443_n.png?oh=f7096ba52bdb1a807b3aa6142355e717&oe=5AA49DE8" alt="litcampus">
+							<div class="col-md-4">
+								<div class="card">
+									<div class="card-body">
+										<img class="featured-1" src="img/spubmedia.jpg" alt="spub-media">
+									</div>
 								</div>
+								<h3 class="feature-title text-center"><strong>Spub Media</strong></h3>
+								<h6 class="feature-site text-center"><a href="http://www.spubmedia.com">www.spubmedia.com</a></h6>
 							</div>
-							<h3 class="feature-title text-center"><strong>Litcampus</strong></h3>
-							<h6 class="feature-site text-center"><a href="http://www.litcampus.com">www.litcampus.com</a></h6>
-						</div>
-						<div class="col-md-4">
-							<div class="card">
-								<div class="card-body">
-									<img class="featured-1" src="https://demesvardestinministries.files.wordpress.com/2017/11/darlyne.png" alt="darlyne">
+							<div class="col-md-4">
+								<div class="card">
+									<div class="card-body">
+										<img class="featured-1" src="img/litcampus.png" alt="litcampus">
+									</div>
 								</div>
+								<h3 class="feature-title text-center"><strong>Litcampus</strong></h3>
+								<h6 class="feature-site text-center"><a href="http://www.litcampus.com">www.litcampus.com</a></h6>
 							</div>
-							<h3 class="feature-title text-center"><strong>Darlyne Logistics</strong></h3>
-							<h6 class="feature-site text-center"><a href="http://www.github.com/demesvardestin/darlynelogistics">github.com/demesvardestin/darlynelogistics</a></h6>
+							<div class="col-md-4">
+								<div class="card">
+									<div class="card-body">
+										<img class="featured-1" src="img/darlyne.png" alt="darlyne">
+									</div>
+								</div>
+								<h3 class="feature-title text-center"><strong>Darlyne Logistics</strong></h3>
+								<h6 class="feature-site text-center"><a href="http://www.github.com/demesvardestin/darlynelogistics">github.com/demesvardestin/darlynelogistics</a></h6>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</div>
 	</body>
 </html>
