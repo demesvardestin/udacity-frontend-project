@@ -1,0 +1,54 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #2d3c49 !important;
+}
+
+h5 {
+    color: #2d3c49 !important;
+}
+
+.image {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.image-div {
+    overflow: hidden !important;
+    height: 550px !important;
+}
+
+.links-div {
+    padding-top: 20px !important;
+}
+
+.featured {
+    color: #7d97ad !important;
+    padding-top: 10px;
+}
+
+.card-body {
+    padding: 0;
+    height: 200px !important;
+}
+
+.featured-1 {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.feature-title {
+    padding-top: 10px;
+}
+
+a {
+    background: transparent !important;
+}
